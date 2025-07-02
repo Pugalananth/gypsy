@@ -1,6 +1,6 @@
 #calculator
 class calculate:#create class funtion for using arthimetic operation
-    def sample(r):#fundtion create the same operation 
+    def sample(True):#fundtion create the same operation 
          while(r<6):#if the while condition is 6 is greterthen r then condition executed but this condition dummey
             print("1 add")#option 1 using addition operation
             print("2 sub")#option 2 using subtract operation
@@ -49,6 +49,6 @@ class calculate:#create class funtion for using arthimetic operation
               print(c)
             elif x>6:
               print("option is not available")
-calculate.sample(3)
+calculate.sample()
 
         
